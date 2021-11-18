@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-header{
+    background-image: url(./assets/Grupo\ de\ máscara\ 2.png);
+    background-position: center;
+    background-size: cover;
+    height: 125vh;
+}
+.section-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.mini-logo{
+    width: 70%;
+}
+.box-btn{
+    width: 35vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.btn{
+    width: 33%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.8vw;
+}
+.btn:hover{
+    width: none;
+    padding: 10px;
+    border: solid 2px;
+}
+.box-title-header{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 47vh;
+}
+.title-header{
+    font-size: 8rem;
+    color: #373737;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F2F4F1;
+}
+.container-recipes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.box-title-main{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.title-main{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 3vw;
+}
+.box-cards{
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    height: 90vh;
+    background-color:#FFFFFF;
+    box-shadow: 0px 7px 6px #00000029;
+    cursor: pointer;
+}
+.image-card{
+    width: 26vw;
+    height: 50vh;
+}
+.box-title-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 25vh;
+}
+.title-card{
+    font-size: 2.2vw;
+}
+.title-card:before {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: #000;
+    display: block;
+    position: relative;
+    bottom: 30px;
+    left: 75px;
+}
+.container-about{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box-about{
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+.box-image-about{
+    width: 50%;
+}
+.image-about{
+    width: 100%;
+    height: 100%;
+}
+.text-about{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-about{
+    font-size: 2.9vw;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.title-about:after {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: #000;
+    display: block;
+    position: relative;
+    left: 3rem;
+}
+.paragraph-about{
+    width: 70%;
+    font-size: 20px;
+}
+.container-subscribe{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFE4DE;
+}
+.title-subscribe{
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.paragraph-subscribe{
+    font-size: 1.2vw;
+}
+.input-subscribe{
+    width: 40vw;
+    height: 70px;
+    border: 0;
+    padding-left: 20px;
+    margin: 25px 0;
+}
+.btn-submit{
+    width: 12vw;
+    height: 10vh;
+    font-size: 1.3vw;
+    text-transform: uppercase;
+    background: transparent;
+    border: solid 4px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.btn-submit:hover {
+    transform: scale(1.1);
+}
+
+
+.container-footer{
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2F4F1;
+}
+.box-social{
+    width: 15vw;
+    display: flex;
+    justify-content: space-around;
+}
+.image-social{
+    width: 3vw;
+    cursor: pointer;
+}
+.box-layout{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #446061;
+}
+.layout{
+    color: #fff;
+    cursor: pointer;
+}
