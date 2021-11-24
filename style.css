@@ -189,7 +189,7 @@
     cursor: pointer;
     transition: all 1s;
 }
-.btn-submit:hover {
+.btn-submit:hover{
     transform: scale(1.1);
 }
 
